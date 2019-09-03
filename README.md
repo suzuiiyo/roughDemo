@@ -1,2 +1,2 @@
 # roughDemo
-just some very simple demo during the C learning
+just some very simple demos during the C learning
