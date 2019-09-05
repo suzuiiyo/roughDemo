@@ -6,7 +6,6 @@
         "cStandard": "c11",
         "cppStandard": "c++17",
         "includePath": [
-            // 下面路径中的 D:MinGw 部分需要替换成你的 MinGw-w64 安装路径
             "${workspaceFolder}/**",
             "D:MinGW/mingw64/x86_64-w64-mingw32/include",
             "D:MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++",
@@ -21,7 +20,6 @@
         ],
         "browse": {
             "path": [
-                // 下面路径中的 D:MinGw 部分需要替换成你的 MinGw-w64 安装路径
                 "${workspaceFolder}/**",
                 "D:MinGW/mingw64/x86_64-w64-mingw32/include",
                 "D:MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++",

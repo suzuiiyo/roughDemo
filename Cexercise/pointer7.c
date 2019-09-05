@@ -15,11 +15,6 @@ int main()
 
     //使用pptr获取值
     printf("Address of var is %x\n", &var);
-
-
-
-
-    
     printf("Value of var = %d\n", var);
     printf("Address of ptr is %x\n", ptr);
     printf("Value available at *ptr = %d\n", *ptr);
