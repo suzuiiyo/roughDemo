@@ -12,6 +12,9 @@ int main()
 
     while(i<n)
     {
+
+
+        
         scanf("%d", &arr[i]);
         i++;
     }
@@ -24,3 +27,4 @@ int main()
 
     printf("the largest element is %d", arr[0]);
 }
+
