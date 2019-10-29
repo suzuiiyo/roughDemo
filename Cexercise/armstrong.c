@@ -26,7 +26,7 @@ int group(long n)
     while(n>0)
     {
         str[i]=n%10 + '0';
-        n /= 10;
+        n /= 1;
         i++;
     }
     str[i] = '\0';

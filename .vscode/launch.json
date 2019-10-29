@@ -1,6 +1,103 @@
 {
     "version": "0.2.0",
-    "configurations": [{
+    "configurations": [
+        {
+            "name": "(gdb) Windows 上的 Bash 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "${env:windir}\\system32\\bash.exe",
+                "pipeArgs": ["-c"],
+                "pipeCwd": ""
+            },
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Windows 上的 Bash 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "${env:windir}\\system32\\bash.exe",
+                "pipeArgs": ["-c"],
+                "pipeCwd": ""
+            },
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Windows 上的 Bash 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "${env:windir}\\system32\\bash.exe",
+                "pipeArgs": ["-c"],
+                "pipeCwd": ""
+            },
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Windows 上的 Bash 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "${env:windir}\\system32\\bash.exe",
+                "pipeArgs": ["-c"],
+                "pipeCwd": ""
+            },
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
         // 配置 VS Code 调试行为：
         "name": "GDB Debug", // 设置在启动配置下拉菜单中显示调试配置的名称。
         //"preLaunchTask": "Compile", // 调试会话开始前要运行的任务。
@@ -33,7 +130,7 @@
             "description": "Enable pretty-printing for gdb",
             "text": "-enable-pretty-printing", // 鼠标悬停查看变量的值，需要启用 pretty-printing 。
             "ignoreFailures": true // 忽略失败的命令，默认为 false 。
-        }]
+        }],
         "preLaunchTask": "Compile",
     }]
 }
