@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/ChangableVariablesGeneric.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/GenericExa1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/GenericExa3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/GnericExa2.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/TestLog4j2.java" charset="GBK" />
   </component>
 </project>
