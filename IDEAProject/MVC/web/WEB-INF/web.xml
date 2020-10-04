@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>HeroUpdateServlet</servlet-name>
+        <servlet-class>HeroUpdateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroUpdateServlet</servlet-name>
+        <url-pattern>/updateHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HeroEditServlet</servlet-name>
+        <servlet-class>HeroEditServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroEditServlet</servlet-name>
+        <url-pattern>/editHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HeroDeleteServlet</servlet-name>
+        <servlet-class>HeroDeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroDeleteServlet</servlet-name>
+        <url-pattern>/deleteHero</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HeroGetOneServlet</servlet-name>
+        <servlet-class>HeroGetOneServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroGetOneServlet</servlet-name>
+        <url-pattern>/getOne</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HeroListServlet</servlet-name>
+        <servlet-class>HeroListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroListServlet</servlet-name>
+        <url-pattern>/listHero</url-pattern>
+    </servlet-mapping>
+</web-app>
