@@ -1,8 +1,8 @@
 package servlet;
 
-import bean.Product;
-import dao.ProductDAO;
+import bean.OrderItem;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -11,15 +11,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author yangw
- */
-public class ProductListServlet extends HttpServlet {
+public class OrderItemListServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        List<Product> products = new ProductDAO().listProduct();
-        req.setAttribute("products", products);
-
-        req.getRequestDispatcher("/listProduct.jsp").forward(req, resp);
+        req.getRequestDispatcher("listOrderItem.jsp").forward(req, resp);
     }
 }

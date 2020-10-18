@@ -1,33 +1,38 @@
 package bean;
 
-import java.net.PasswordAuthentication;
-
 public class User {
-        private int id;
-        private String name;
-        private String password;
+    private int id;
+    private String name;
+    private String password;
 
-        public int getId(){
-                return id;
-        }
+    public User() {
+    }
+    public User(String name, String password) {
+        this.name = name;
+        this.password = password;
+    }
 
-        public void setId(int id){
-                this.id = id;
-        }
+    public void setId(int id){
+        this.id = this.id;
+    }
 
-        public String getName(){
-                return name;
-        }
+    public int getId(){
+        return id;
+    }
 
-        public void setName(String name){
-                this.name = name;
-        }
+    public void setName(String name){
+        this.name = this.name;
+    }
 
-        public String getPassword(){
-                return password;
-        }
+    public String getName(){
+        return name;
+    }
 
-        public void setPassword(String password){
-                this.password = password;
-        }
+    public void setPassword(String password){
+        this.password = this.password;
+    }
+
+    public String getPassword(){
+        return password;
+    }
 }

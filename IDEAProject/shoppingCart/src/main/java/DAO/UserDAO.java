@@ -1,35 +1,48 @@
-package DAO;
+package dao;
 
 import bean.User;
 
 import java.sql.*;
+import java.util.Collection;
 
 public class UserDAO {
-    public static void main(String[] args) {
-        System.out.println(new UserDAO().getUser("tom", "123").getId());
+    public UserDAO() {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public Connection getConn(){
+        Connection conn = null;
+        try{
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cart?characterEncoding=UTF-8&serverTimezone=UTC", "root", "admin");
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+        return conn;
     }
 
     public User getUser(String name, String password){
-        User result = null;
-        try{
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cart?characterEncoding=UTF-8&serverTimezone=UTC", "root", "admin");
+        User user = null;
+        try(Connection conn = getConn()){
             String sql = "select * from user where name = ? and password = ?";
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1, name);
             ps.setString(2, password);
             ResultSet rs = ps.executeQuery();
-
             while(rs.next()){
-                result = new User();
-                result.setId(rs.getInt(1));
-                result.setPassword(password);
-                result.setName(name);
-            }
+                user = new User();
+                int id = rs.getInt("id");
 
-        }catch(ClassNotFoundException | SQLException e){
+                user.setId(id);
+                user.setName(name);
+                user.setPassword(password);
+            }
+        }catch (SQLException e){
             e.printStackTrace();
         }
-        return result;
+        return user;
     }
 }
