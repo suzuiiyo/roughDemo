@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style type="text/css">
+        .divForm{
+            position: absolute;
+            width: 500px;
+            height: 300px;
+
+            text-align: center;
+            color: #007bff;
+
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left: -250px;
+        }
+    </style>
+</head>
+<body style="background: url(backgroundImagie.jpg); background-size: 100% 100%; background-attachment: fixed" >
+    <div class="divForm">
+        <div style="color: darkorange; font-size: larger">欢迎登陆英雄管理系统</div>
+        <form action="login" method="post">
+            <p>
+                账户: <input type="text" name="name" style="height: 25px; width: auto" placeholder="请输入账户名">
+            </p>
+            <p>
+                密码: <input type="text" name="password" style="height: 25px; width: auto" placeholder="请输入密码">
+            </p>
+            <input type="submit" value="登录">
+        </form>
+    </div>
+</body>
+</html>

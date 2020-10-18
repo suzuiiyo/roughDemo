@@ -14,13 +14,13 @@
 <head>
     <title>英雄2列表</title>
 </head>
-<body>
+<body style="background: url(backgroundImagie.jpg); background-size: 100% 100%; background-attachment: fixed">
     <script>
         $(function (){
             $("a").addClass("btn btn-default btn-light");
         });
     </script>
-    <table style="width:500px; margin: 44px auto" class="table table-striped table-bordered table-hover table-light" align="center" border="1" cellspacing="0">
+    <table style="width:650px; margin: 44px auto" class="table table-striped table-bordered table-hover table-light" align="center" border="1" cellspacing="0">
         <tr>
             <td>id</td>
             <td>name</td>
