@@ -5,38 +5,36 @@
   Time: 10:38
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" import="java.util.*" isELIgnored="false" %>
+<%@ page contentType="text/html;charset=utf-8" language="java" pageEncoding="utf-8" import="java.util.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
-<script src="webjars/jquery/3.5.1/jquery.min.js"></script>
-<script src="webjars/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="webjars/bootstrap/4.5.2/css/bootstrap.min.css" />
-<script>
-$(function() {
-    $("input.addCartButton").removeAttr("disabled");
-    $("input.addCartButton").click(function () {
-        $(this).attr("disabled", "disabled");
-        var button = $(this);
-        var pid = $(this).attr("pid");
-        var number = $("input.number[pid=" + pid + "]").val();
-        var page = " /addOrderItem";
-        $.get(
-            page,
-            {"num": number, "pid": pid},
-            function (result) {
-                $("#addCartSuccessMessage").fadeIn(1200);
-                $("#addCartSuccessMessage").fadeOut(1200, function () {
-                    button.removeAttr("disabled");
-                });
-            }
-        );
-    });
-
-    $("#addCartSuccessMessage").hide();
-});
-</script>
-
 <html>
+    <script src="${pageContext.request.contextPath}/webjars/jquery/3.5.1/jquery.min.js"></script>
+    <script src="webjars/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="webjars/bootstrap/4.5.2/css/bootstrap.min.css" />
+<script>
+    $(function() {
+        $("input.addCartButton").removeAttr("disabled");
+        $("input.addCartButton").click(function () {
+            $(this).attr("disabled", "disabled");
+            var button = $(this);
+            var pid = $(this).attr("pid");
+            var number = $("input.number[pid=" + pid + "]").val();
+            var page = " /addOrderItem";
+            $.get(
+                page,
+                {"num": number, "pid": pid},
+                function (result) {
+                    $("#addCartSuccessMessage").fadeIn(1200);
+                    $("#addCartSuccessMessage").fadeOut(1200, function () {
+                        button.removeAttr("disabled");
+                    });
+                }
+            );
+        });
+
+        $("#addCartSuccessMessage").hide();
+    });
+</script>
 <head>
     <title>商品展示</title>
 </head>

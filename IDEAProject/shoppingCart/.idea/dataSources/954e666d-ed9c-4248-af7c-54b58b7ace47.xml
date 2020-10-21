@@ -923,33 +923,73 @@ SELECT|sys.sys_config:null
 APPLICATION_PASSWORD_ADMIN,AUDIT_ADMIN,BACKUP_ADMIN,BINLOG_ADMIN,BINLOG_ENCRYPTION_ADMIN,CLONE_ADMIN,CONNECTION_ADMIN,ENCRYPTION_KEY_ADMIN,GROUP_REPLICATION_ADMIN,INNODB_REDO_LOG_ARCHIVE,PERSIST_RO_VARIABLES_ADMIN,REPLICATION_APPLIER,REPLICATION_SLAVE_ADMIN,RESOURCE_GROUP_ADMIN,RESOURCE_GROUP_USER,ROLE_ADMIN,SERVICE_CONNECTION_ADMIN,SESSION_VARIABLES_ADMIN,SET_USER_ID,SYSTEM_USER,SYSTEM_VARIABLES_ADMIN,TABLE_ENCRYPTION_ADMIN,XA_RECOVER_ADMIN!
 </ObjectGrants>
     </user>
-    <table id="289" parent="3" name="product">
+    <table id="289" parent="3" name="order_"/>
+    <table id="290" parent="3" name="orderitem"/>
+    <table id="291" parent="3" name="product">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="290" parent="3" name="user">
+    <table id="292" parent="3" name="user">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <column id="291" parent="289" name="id">
+    <column id="293" parent="289" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="294" parent="289" name="uid">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <key id="295" parent="289" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="296" parent="290" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="297" parent="290" name="pid">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="298" parent="290" name="num">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="299" parent="290" name="oid">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <key id="300" parent="290" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="301" parent="291" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="292" parent="289" name="NAME">
+    <column id="302" parent="291" name="NAME">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
     </column>
-    <column id="293" parent="289" name="price">
+    <column id="303" parent="291" name="price">
       <Position>3</Position>
       <DataType>float|0s</DataType>
     </column>
-    <column id="294" parent="290" name="id">
+    <column id="304" parent="292" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="295" parent="290" name="name">
+    <column id="305" parent="292" name="name">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
     </column>
-    <column id="296" parent="290" name="password">
+    <column id="306" parent="292" name="password">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
     </column>

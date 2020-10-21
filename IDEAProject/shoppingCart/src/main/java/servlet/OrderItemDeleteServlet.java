@@ -12,6 +12,9 @@ import java.net.ResponseCache;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author yangw
+ */
 public class OrderItemDeleteServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

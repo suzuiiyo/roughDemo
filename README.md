@@ -1,2 +1,0 @@
-# JavaRoad
-some demoes

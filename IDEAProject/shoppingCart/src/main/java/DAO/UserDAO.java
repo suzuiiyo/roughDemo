@@ -2,6 +2,7 @@ package dao;
 
 import bean.User;
 
+import java.security.spec.NamedParameterSpec;
 import java.sql.*;
 import java.util.Collection;
 
@@ -44,5 +45,19 @@ public class UserDAO {
             e.printStackTrace();
         }
         return user;
+    }
+
+    public void insert(User user){
+        try(Connection con = getConn()){
+            String sql = "insert into user values(null, ?, ?)";
+            PreparedStatement ps = con.prepareStatement(sql);
+            ps.setString(1, user.getName());
+            ps.setString(2, user.getPassword());
+            ps.executeUpdate();
+
+            ps.close();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
     }
 }

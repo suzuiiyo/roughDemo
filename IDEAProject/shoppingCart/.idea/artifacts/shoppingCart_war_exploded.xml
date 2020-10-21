@@ -16,8 +16,6 @@
           <element id="library" level="project" name="Maven: org.webjars:bootstrap:4.5.2" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:3.5.1" />
           <element id="library" level="project" name="Maven: org.webjars:popper.js:1.16.0" />
-          <element id="library" level="project" name="Maven: org.apache.taglibs:taglibs-standard-jstlel:1.2.5" />
-          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl:1.2" />
         </element>
       </element>
     </root>

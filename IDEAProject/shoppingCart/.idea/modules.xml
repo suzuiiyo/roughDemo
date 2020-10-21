@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://E:/BaiduNetdiskDownload/cart_practise_add_cart/cart.iml" filepath="E:/BaiduNetdiskDownload/cart_practise_add_cart/cart.iml" />
       <module fileurl="file://$PROJECT_DIR$/shoppingCart.iml" filepath="$PROJECT_DIR$/shoppingCart.iml" />
     </modules>
   </component>
