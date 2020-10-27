@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Studio/C++Way/build",
+  "command": "D:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\FirstCmake.dir\\FirstCmake.cpp.obj -c D:\\Studio\\C++Way\\FirstCmake.cpp",
+  "file": "D:/Studio/C++Way/FirstCmake.cpp"
+}
+]

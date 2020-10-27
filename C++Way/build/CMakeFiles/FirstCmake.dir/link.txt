@@ -1,0 +1,2 @@
+D:\Mingw64\bin\ar.exe qc libFirstCmake.a CMakeFiles/FirstCmake.dir/FirstCmake.cpp.obj
+D:\Mingw64\bin\ranlib.exe libFirstCmake.a

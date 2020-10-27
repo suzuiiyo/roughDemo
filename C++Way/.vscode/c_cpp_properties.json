@@ -4,6 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
+                "D:/LLVM/lib/clang/9.0.0/include",
                 "D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
                 "D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
                 "D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
@@ -16,10 +17,10 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "compilerPath": "D:\\LLVM\\bin\\clang.exe",
             "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "msvc-x64"
+            "cppStandard": "c++14",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         }
     ],
     "version": 4
