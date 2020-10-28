@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "D:\\Studio\\C\\WorkSpace"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"float.h": "c"
+		}
+	}
+}

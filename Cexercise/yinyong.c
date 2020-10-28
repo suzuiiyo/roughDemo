@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+void cyclicSwap(int *a, int *b, int *c);
+
+int main()
+{
+    int a, b, c;
+
+    printf("enter the value of a, b, c: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    printf("before swap:\n");
+    printf("a=%d \nb=%d \nc=%d\n", a, b, c);
+
+    cyclicSwap(&a, &b, &c);
+
+    printf("after swap:\n");
+    printf("a=%d \nb=%d \nc=%d\n", a, b, c);
+
+    return 0;
+}
+
+void cyclicSwap(int *a, int *b, int *c)
+{
+    int temp;
+
+    temp = *b;
+    *b = *a;
+    *a = *c;
+    *c = temp;
+}
