@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #include<iostream>
 
 using namespace std;
@@ -23,11 +23,11 @@ class Student{
 Student::Student(char *name, int age, float score): m_name(name), m_age(age), m_score(score){}
 
 void Student::show() const{
-    cout<<m_name<<"µÄÄêÁäÊÇ"<<m_age<<", ³É¼¨ÊÇ"<<m_score<<endl;
+    cout<<m_name<<"çš„å¹´é¾„æ˜¯"<<m_age<<", æˆç»©æ˜¯"<<m_score<<endl;
 }
 
 void Student::show1() {
-    cout<<"ÔÙÀ´Ò»±é:"<<m_name<<"µÄÄêÁäÊÇ"<<m_age<<", ³É¼¨ÊÇ"<<m_score<<endl;
+    cout<<"å†æ¥ä¸€é:"<<m_name<<"çš„å¹´é¾„æ˜¯"<<m_age<<", æˆç»©æ˜¯"<<m_score<<endl;
 }
 
 char *Student::getName() const{
@@ -43,21 +43,21 @@ float Student::getScore() const{
 }
 
 int main(){
-    //cost¶ÔÏó
-    const Student stu((char*)"Ð¡Ã÷", 15, 90.6);
+    //costå¯¹è±¡
+    const Student stu((char*)"å°æ˜Ž", 15, 90.6);
     stu.show();
     //stu.show1();    
 
-    Student stu1((char*)"Àæ»¨", 17, 94.3);
+    Student stu1((char*)"æ¢¨èŠ±", 17, 94.3);
     stu1.show();
     stu1.show1();
 
-    const Student *pstu = new Student((char*)"Ã·½ã", 18, 99.5);
+    const Student *pstu = new Student((char*)"æ¢…å§", 18, 99.5);
     pstu -> show();
     //pstu -> show1();
     delete pstu;
 
-    Student *pstu1 = new Student((char*)"·Éºè", 17, 87.4);
+    Student *pstu1 = new Student((char*)"é£žé¸¿", 17, 87.4);
     pstu1 -> show();
     pstu1 -> show1();
     delete pstu1;

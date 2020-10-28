@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 class Student{
@@ -15,16 +15,16 @@ class Student{
 
 Student::Student(char *name, int age, float score): m_name(name), m_age(age), m_score(score){}
 
-//·Ç³ÉÔ±º¯Êı
+//éæˆå‘˜å‡½æ•°
 void show(Student *pstu){
-    cout<<pstu->m_name<<"µÄÄêÁäÊÇ "<<pstu->m_age<<",³É¼¨ÊÇ "<<pstu->m_score<<endl;
+    cout<<pstu->m_name<<"çš„å¹´é¾„æ˜¯ "<<pstu->m_age<<",æˆç»©æ˜¯ "<<pstu->m_score<<endl;
 }
 
 int main(){
-    Student stu((char*)"Ğ¡Ã÷", 18, 97.7);
-    show(&stu);           //µ÷ÓÃÓÑÔªº¯Êı
-    Student *pstu = new Student((char*)"Á¢·½", 19, 98.6);
-    show(pstu);          //µ÷ÓÃÓÑÔªº¯Êı
+    Student stu((char*)"å°æ˜", 18, 97.7);
+    show(&stu);           //è°ƒç”¨å‹å…ƒå‡½æ•°
+    Student *pstu = new Student((char*)"ç«‹æ–¹", 19, 98.6);
+    show(pstu);          //è°ƒç”¨å‹å…ƒå‡½æ•°
 
     return 0;
 }

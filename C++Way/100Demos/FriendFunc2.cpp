@@ -1,15 +1,26 @@
 #include<iostream>
-#include<string.h>
+#include<string>
+
 using namespace std;
 
-class Address;          //ÌáÇ°ÉùÃ÷AddressÀà
+class Address;
 
-//ÉùÃ÷StudentÀà
 class Student{
     public:
-        Student(char *name, int age, float score);
-        void show(Address *adr);
-    
+        Student();
+        Student(string name, int age, float score);
+
+    public:
+        void show(Address *addr);
+
+        void setName(string name);
+        void setAge(int age);
+        void setScore(float score);
+
+        string getName();
+        int getAge();
+        float getScore();
+
     private:
         string m_name;
         int m_age;
@@ -17,34 +28,64 @@ class Student{
 };
 
 class Address{
-    private:
-        char *m_province; 
-        char *m_city;
-        char *m_district;
-    
     public:
-        Address(char *provice, char *city, char *district);
-        //½«StudentÀàÖĞµÄ³ÉÔ±º¯Êıshow()ÉùÃ÷ÎªÓÑÔªº¯Êı
+        Address(string province, string city, string district);
         friend void Student::show(Address *addr);
+
+    private:
+        string m_province;
+        string m_city;
+        string m_district;
 };
 
-Student::Student(string name, int age, float score): m_name(name), m_age(age), m_score(score){}
+Student::Student(string name, int age, float score):m_name(name), m_age(age), m_score(score){}
+Student::Student(){}
+
+Address::Address(string province, string city, string district):m_province(province), m_city(city), m_district(district){}
+
 void Student::show(Address *addr){
-    cout<<m_name<<"µÄÄêÁäÊÇ "<<m_age<<", ³É¼¨ÊÇ "<<m_score<<endl;
-    cout<<"¼ÒÍ¥×¡Ö·£º"<<addr->m_province<<"Ê¡"<<addr->m_city<<"ÊĞ"<<addr->m_district<<"Çø"<<endl;
+    cout << m_name << "å¹´é¾„" << m_age << ",æˆç»©æ˜¯:" << m_score << endl;
+    cout << "å®¶åº­åœ°å€" << addr -> m_province << "çœ" << addr -> m_city << "å¸‚" << addr -> m_district << "åŒº" << endl;
 }
 
-//ÊµÏÖAddressÀà
-Address::Address(char *provice, char *city, char *district):m_province(provice), m_city(city), m_district(district){};
+void Student::setName(string name){
+    m_name = name;
+}
+
+void Student::setAge(int age){
+    m_age = age;
+}
+
+void Student::setScore(float score){
+    m_score = score;
+}
+
+string Student::getName(){
+    return m_name;
+}
+
+int Student::getAge(){
+    return m_age;
+}
+
+float Student::getScore(){
+    return m_score;
+}
 
 int main(){
-    Student stu("ÆÑÀï°º", 16, 95.6f);
-    Address addr((char*)"ºş±±", (char*)"Îäºº", (char*)"½«¾üÂ·");
-    stu.show(&addr);
+    Student stu1;
+    stu1.setName("ç©·å¥‡");
+    stu1.setAge(17);
+    stu1.setScore(97.4f);
 
-    Student *stu1 = new Student("ÁºÌì", 18, 97.77f);
-    Address *addr1 = new Address((char*)"ºşÄÏ", "³¤É³", "´óÕ¤À¸");
-    stu1 -> show(addr1);
+    Address addr1("å—å±±", "ç»æ¹–", "æ·±æ¸Šè°·");
+    stu1.show(&addr1);
 
-    return 0;
+    Student stu2("å¸æ±Ÿ", 19, 95.4f);
+    Address addr2("åŒ—æµ·", "ç¦»æ¸Š", "æ—¶ç©ºä¹‹éš™");
+    stu2.show(&addr2);
+
+    Student *stu3 = new Student("é¥•é¤®", 18, 98.4f);
+    Address *addr3 = new Address("åšçªŸ", "æ¯çœ¼æ³‰", "é©¬ç‰ç‰");
+    stu3->show(addr3);
 }
