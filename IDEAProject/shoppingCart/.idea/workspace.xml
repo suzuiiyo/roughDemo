@@ -28,119 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe6e6865-5259-404c-821d-b27b5f4583f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MVC/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/MVC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/artifacts/MVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Maven__org_webjars_bootstrap_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Maven__org_webjars_bower_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/libraries/Maven__org_webjars_popper_js_1_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/DAO/HeroDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/HeroAddServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/HeroDeleteServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/HeroEditServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/HeroGetOneServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/HeroListServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/HeroUpdateServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/bean/Hero.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/filter/AuthFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/filter/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/filter/FirstFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/shoppingCart_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/954e666d-ed9c-4248-af7c-54b58b7ace47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/954e666d-ed9c-4248-af7c-54b58b7ace47/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_popper_js_1_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/classes/bean/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/classes/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/classes/dao/ProductDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/classes/servlet/ProductListServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/listProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingCart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/OrderCreateServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bean/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bean/OrderItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bean/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/OrderDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/OrderItemDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/ProductDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/OrderCreateServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/OrderItemAddServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/OrderItemDeleteServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/OrderItemListServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/ProductListServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/UserLoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/shoppingImage.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/OrderItemDeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/OrderItemDeleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/listOrderItem.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/listOrderItem.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/listProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/listProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLionProject/Scrappies/.idea/Scrappies.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLionProject/Scrappies/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLionProject/Scrappies/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLionProject/Scrappies/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLionProject/Scrappies/InheritanceFuncCover.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLionProject/Scrappies/VirtualFunc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLionProject/Scrappies/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CLionProject/Scrappies/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/classes/servlet/OrderItemDeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shoppingCart_war_exploded/WEB-INF/classes/servlet/OrderItemDeleteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWay" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,23 +98,12 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29885057" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.372" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.372" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -343,6 +230,19 @@
       <workItem from="1603065648942" duration="29000" />
       <workItem from="1603069800576" duration="326000" />
       <workItem from="1603086702730" duration="14717000" />
+      <workItem from="1603894029209" duration="232000" />
+      <workItem from="1603894413323" duration="339000" />
+      <workItem from="1603929652621" duration="1310000" />
+      <workItem from="1603931130799" duration="810000" />
+      <workItem from="1603935476584" duration="54000" />
+      <workItem from="1603937308598" duration="146000" />
+      <workItem from="1603938436847" duration="66000" />
+      <workItem from="1603938543522" duration="163000" />
+      <workItem from="1603938990341" duration="212000" />
+      <workItem from="1603939300309" duration="211000" />
+      <workItem from="1603960418740" duration="57000" />
+      <workItem from="1603963893598" duration="335000" />
+      <workItem from="1603964285548" duration="177000" />
     </task>
     <servers />
   </component>
@@ -389,42 +289,42 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="1062" y="121" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.864@0.0.1536.864" timestamp="1603008872060" />
-    <state x="674" y="223" key="FileChooserDialogImpl" timestamp="1603009021650">
+    <state x="674" y="223" key="FileChooserDialogImpl" timestamp="1603894194487">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="674" y="223" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603009021650" />
-    <state width="528" height="2" key="GridCell.Tab.0.bottom" timestamp="1603104359806">
+    <state x="674" y="223" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603894194487" />
+    <state width="675" height="2" key="GridCell.Tab.0.bottom" timestamp="1603931945295">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="528" height="2" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603104359806" />
-    <state width="528" height="2" key="GridCell.Tab.0.center" timestamp="1603104359806">
+    <state width="675" height="2" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603931945295" />
+    <state width="675" height="2" key="GridCell.Tab.0.center" timestamp="1603931945294">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="528" height="2" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603104359806" />
-    <state width="528" height="2" key="GridCell.Tab.0.left" timestamp="1603104359806">
+    <state width="675" height="2" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603931945294" />
+    <state width="675" height="2" key="GridCell.Tab.0.left" timestamp="1603931945294">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="528" height="2" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603104359806" />
-    <state width="528" height="2" key="GridCell.Tab.0.right" timestamp="1603104359806">
+    <state width="675" height="2" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603931945294" />
+    <state width="675" height="2" key="GridCell.Tab.0.right" timestamp="1603931945294">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="528" height="2" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603104359806" />
-    <state width="528" height="2" key="GridCell.Tab.1.bottom" timestamp="1603104359806">
+    <state width="675" height="2" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603931945294" />
+    <state width="675" height="2" key="GridCell.Tab.1.bottom" timestamp="1603931945295">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="528" height="2" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603104359806" />
-    <state width="528" height="2" key="GridCell.Tab.1.center" timestamp="1603104359806">
+    <state width="675" height="2" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603931945295" />
+    <state width="675" height="2" key="GridCell.Tab.1.center" timestamp="1603931945295">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="528" height="2" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603104359806" />
-    <state width="528" height="2" key="GridCell.Tab.1.left" timestamp="1603104359806">
+    <state width="675" height="2" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603931945295" />
+    <state width="675" height="2" key="GridCell.Tab.1.left" timestamp="1603931945295">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="528" height="2" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603104359806" />
-    <state width="528" height="2" key="GridCell.Tab.1.right" timestamp="1603104359806">
+    <state width="675" height="2" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603931945295" />
+    <state width="675" height="2" key="GridCell.Tab.1.right" timestamp="1603931945295">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="528" height="2" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603104359806" />
+    <state width="675" height="2" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603931945295" />
     <state width="595" height="167" key="GridCell.Tab.2.bottom" timestamp="1602993730087">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -449,14 +349,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="743" y="56" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1603009033605" />
-    <state x="160" y="0" key="SettingsEditor" timestamp="1603097896851">
+    <state x="279" y="105" key="SettingsEditor" timestamp="1603964235248">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603097896851" />
+    <state x="279" y="105" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603964235248" />
     <state x="632" y="171" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602726892787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="632" y="171" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1602726892787" />
+    <state x="421" y="228" width="573" height="275" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1603964192188">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="421" y="228" width="573" height="275" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.864@0.0.1536.864" timestamp="1603964192188" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1602728174472">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -1,0 +1,3 @@
+"D:\Software\IntelliJ CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ClionCode.dir/objects.a
+D:\Mingw64\bin\ar.exe cr CMakeFiles\ClionCode.dir/objects.a @CMakeFiles\ClionCode.dir\objects1.rsp
+D:\Mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\ClionCode.dir/objects.a -Wl,--no-whole-archive  -o ClionCode.exe -Wl,--out-implib,libClionCode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ClionCode.dir\linklibs.rsp

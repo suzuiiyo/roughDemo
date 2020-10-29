@@ -1,16 +1,12 @@
-//
-// Created by yangw on 2020/10/29.
-//
-
 #include<iostream>
 #include<string>
 
 using namespace std;
 
 class Base{
-public:
-    void func();
-    void func(int);
+    public:
+        void func();
+        void func(int);
 };
 
 void Base::func(){
@@ -23,10 +19,10 @@ void Base::func(int a){
 
 //派生类Derived
 class Derived: public Base{
-public:
-    void func(string);
-    void func(bool);
-    //void func(float);
+    public:
+        void func(string);
+        void func(bool);
+        void func(float);
 };
 
 void Derived::func(string str){
@@ -37,16 +33,16 @@ void Derived::func(bool is){
     cout << "Derived::func(bool)" << endl;
 }
 
-//void Derived::func(float a){
-//    cout << "Derived::func(float)" << endl;
-//}
+void Derived::func(float a){
+    cout << "Derived::func(float)" << endl;
+}
 
 int main(){
     Derived d;
     d.func("www.pornhub.com");
     d.func(true);
     //d.func();        子类没继承func()被覆盖了
-    d.func(10);
+    d.func(10.56f);
     d.Base::func();
     d.Base::func(100);
 

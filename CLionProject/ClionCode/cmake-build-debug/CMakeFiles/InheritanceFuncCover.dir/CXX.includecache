@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Studio/CLionProject/ClionCode/InheritanceFuncCover.cpp
+iostream
+-
+string
+-
+
+D:/Studio/CLionProject/ClionCode/Swap.cpp
+iostream
+-
+string
+-
+

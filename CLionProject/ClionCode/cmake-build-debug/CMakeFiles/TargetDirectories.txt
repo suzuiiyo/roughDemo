@@ -1,0 +1,6 @@
+D:/Studio/CLionProject/ClionCode/cmake-build-debug/CMakeFiles/InheritanceFuncCover.dir
+D:/Studio/CLionProject/ClionCode/cmake-build-debug/CMakeFiles/Swap.dir
+D:/Studio/CLionProject/ClionCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Studio/CLionProject/ClionCode/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
+D:/Studio/CLionProject/ClionCode/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Studio/CLionProject/ClionCode/cmake-build-debug/CMakeFiles/main.dir

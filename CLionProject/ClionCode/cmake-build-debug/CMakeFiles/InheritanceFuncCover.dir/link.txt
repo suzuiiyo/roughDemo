@@ -1,0 +1,3 @@
+"D:\Software\IntelliJ CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\InheritanceFuncCover.dir/objects.a
+D:\Mingw64\bin\ar.exe cr CMakeFiles\InheritanceFuncCover.dir/objects.a @CMakeFiles\InheritanceFuncCover.dir\objects1.rsp
+D:\Mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\InheritanceFuncCover.dir/objects.a -Wl,--no-whole-archive  -o InheritanceFuncCover.exe -Wl,--out-implib,libInheritanceFuncCover.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\InheritanceFuncCover.dir\linklibs.rsp
