@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CLionCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Swap">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/Swap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Swap"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Swap/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/Swap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Swap/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Destructor">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/Destructor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Destructor"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Destructor/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/Destructor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Destructor/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InheritanceFuncCover">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/InheritanceFuncCover.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 InheritanceFuncCover"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InheritanceFuncCover/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/InheritanceFuncCover.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 InheritanceFuncCover/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualFunc">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualFunc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualFunc/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualFunc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiInheritance">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/MultiInheritance.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiInheritance/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/MultiInheritance.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiInheritance2">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/MultiInheritance2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance2"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiInheritance2/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/MultiInheritance2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance2/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrevilegePointer">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/PrevilegePointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrevilegePointer"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrevilegePointer/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/PrevilegePointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrevilegePointer/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StarInheritance">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/StarInheritance.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 StarInheritance"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StarInheritance/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/StarInheritance.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 StarInheritance/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualInheritance">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualInheritance.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritance"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualInheritance/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualInheritance.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritance/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualInheritanceConstructor">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualInheritanceConstructor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritanceConstructor"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualInheritanceConstructor/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualInheritanceConstructor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritanceConstructor/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeCXXCompilerId">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/CMakeCXXCompilerId.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeCXXCompilerId/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/CMakeCXXCompilerId.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/StudioL/CLionCode/Destructor.cpp">
+			<Option target="Destructor"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/InheritanceFuncCover.cpp">
+			<Option target="InheritanceFuncCover"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/MultiInheritance.cpp">
+			<Option target="MultiInheritance"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/MultiInheritance2.cpp">
+			<Option target="MultiInheritance2"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/PrevilegePointer.cpp">
+			<Option target="PrevilegePointer"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/StarInheritance.cpp">
+			<Option target="StarInheritance"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/Swap.cpp">
+			<Option target="Swap"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/VirtualFunc.cpp">
+			<Option target="VirtualFunc"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/VirtualInheritance.cpp">
+			<Option target="VirtualInheritance"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/VirtualInheritanceConstructor.cpp">
+			<Option target="VirtualInheritanceConstructor"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp">
+			<Option target="CMakeCXXCompilerId"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
