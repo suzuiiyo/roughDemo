@@ -11,10 +11,52 @@
 				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualFunc_2">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualFunc_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc_2"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualFunc_2/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualFunc_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc_2/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StarInheritance">
@@ -24,18 +66,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 StarInheritance"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 StarInheritance"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StarInheritance/fast">
@@ -45,18 +87,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 StarInheritance/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 StarInheritance/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Complex">
@@ -66,18 +108,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Complex"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Complex"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Complex/fast">
@@ -87,18 +129,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Complex/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Complex/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer2">
@@ -108,18 +150,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer2"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer2"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer2/fast">
@@ -129,18 +171,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer2/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer2/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer">
@@ -150,18 +192,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer/fast">
@@ -171,18 +213,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="shapeExt">
@@ -192,18 +234,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 shapeExt"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 shapeExt"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="shapeExt/fast">
@@ -213,18 +255,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 shapeExt/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 shapeExt/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="triangle">
@@ -234,18 +276,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangle"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangle"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="triangle/fast">
@@ -255,18 +297,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangle/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangle/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedForBasic">
@@ -276,18 +318,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedForBasic"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedForBasic"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedForBasic/fast">
@@ -297,18 +339,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedForBasic/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedForBasic/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="thisMain">
@@ -318,18 +360,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 thisMain"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 thisMain"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="thisMain/fast">
@@ -339,18 +381,60 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 thisMain/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 thisMain/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualFunc_3">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualFunc_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc_3"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualFunc_3/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/VirtualFunc_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc_3/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer3">
@@ -360,18 +444,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer3"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer3"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer3/fast">
@@ -381,18 +465,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer3/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer3/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PrevilegePointer">
@@ -402,18 +486,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrevilegePointer"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrevilegePointer"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PrevilegePointer/fast">
@@ -423,18 +507,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrevilegePointer/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrevilegePointer/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Overloading">
@@ -444,18 +528,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Overloading/fast">
@@ -465,18 +549,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer4">
@@ -486,18 +570,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer4"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer4"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer4/fast">
@@ -507,18 +591,60 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer4/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer4/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Destructor">
@@ -528,18 +654,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Destructor"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Destructor"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Destructor/fast">
@@ -549,18 +675,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Destructor/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Destructor/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer5">
@@ -570,18 +696,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer5"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer5"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DerivedPointer5/fast">
@@ -591,18 +717,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer5/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 DerivedPointer5/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Encapsulation">
@@ -612,18 +738,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Encapsulation"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Encapsulation"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Encapsulation/fast">
@@ -633,18 +759,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Encapsulation/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Encapsulation/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="InheritanceFuncCover">
@@ -654,18 +780,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 InheritanceFuncCover"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 InheritanceFuncCover"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="InheritanceFuncCover/fast">
@@ -675,18 +801,60 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 InheritanceFuncCover/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 InheritanceFuncCover/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="E:/StudioL/CLionCode/cmake-build-debug/server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MultiInheritance">
@@ -696,18 +864,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MultiInheritance/fast">
@@ -717,18 +885,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MultiInheritance2">
@@ -738,18 +906,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance2"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance2"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MultiInheritance2/fast">
@@ -759,18 +927,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance2/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiInheritance2/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Overloading2">
@@ -780,18 +948,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading2"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading2"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Overloading2/fast">
@@ -801,18 +969,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading2/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading2/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Overloading3">
@@ -822,18 +990,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading3"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading3"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Overloading3/fast">
@@ -843,18 +1011,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading3/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Overloading3/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PureVirtual">
@@ -864,18 +1032,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PureVirtual"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PureVirtual"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PureVirtual/fast">
@@ -885,18 +1053,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PureVirtual/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PureVirtual/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bind">
@@ -906,18 +1074,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 bind"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 bind"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bind/fast">
@@ -927,18 +1095,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 bind/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 bind/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Swap">
@@ -948,18 +1116,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Swap"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Swap"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Swap/fast">
@@ -969,18 +1137,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Swap/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Swap/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Typeid">
@@ -990,18 +1158,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typeid"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typeid"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Typeid/fast">
@@ -1011,18 +1179,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typeid/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typeid/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="VirtualFunc">
@@ -1032,18 +1200,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="VirtualFunc/fast">
@@ -1053,18 +1221,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualFunc/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="VirtualInheritance">
@@ -1074,18 +1242,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritance"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritance"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="VirtualInheritance/fast">
@@ -1095,18 +1263,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritance/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritance/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="VirtualInheritanceConstructor">
@@ -1116,18 +1284,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritanceConstructor"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritanceConstructor"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="VirtualInheritanceConstructor/fast">
@@ -1137,18 +1305,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritanceConstructor/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualInheritanceConstructor/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bind2">
@@ -1158,18 +1326,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 bind2"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 bind2"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bind2/fast">
@@ -1179,18 +1347,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 bind2/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 bind2/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CMakeCXXCompilerId">
@@ -1200,18 +1368,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CMakeCXXCompilerId/fast">
@@ -1221,28 +1389,28 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main">
@@ -1252,18 +1420,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main/fast">
@@ -1273,18 +1441,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="shape">
@@ -1294,18 +1462,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 shape"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 shape"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="shape/fast">
@@ -1315,18 +1483,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 shape/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 shape/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sphere">
@@ -1336,18 +1504,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 sphere"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 sphere"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sphere/fast">
@@ -1357,28 +1525,28 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt5.14/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 sphere/fast"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 sphere/fast"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/StudioL/CLionCode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt5.14/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/StudioL/CLionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -1445,6 +1613,12 @@
 		<Unit filename="E:/StudioL/CLionCode/VirtualFunc.cpp">
 			<Option target="VirtualFunc"/>
 		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/VirtualFunc_2.cpp">
+			<Option target="VirtualFunc_2"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/VirtualFunc_3.cpp">
+			<Option target="VirtualFunc_3"/>
+		</Unit>
 		<Unit filename="E:/StudioL/CLionCode/VirtualInheritance.cpp">
 			<Option target="VirtualInheritance"/>
 		</Unit>
@@ -1457,11 +1631,17 @@
 		<Unit filename="E:/StudioL/CLionCode/bind2.cpp">
 			<Option target="bind2"/>
 		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/client.cpp">
+			<Option target="client"/>
+		</Unit>
 		<Unit filename="E:/StudioL/CLionCode/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp">
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
 		<Unit filename="E:/StudioL/CLionCode/main.cpp">
 			<Option target="main"/>
+		</Unit>
+		<Unit filename="E:/StudioL/CLionCode/server.cpp">
+			<Option target="server"/>
 		</Unit>
 		<Unit filename="E:/StudioL/CLionCode/shape/src/shape.cpp">
 			<Option target="shape"/>
