@@ -1,0 +1,936 @@
+﻿#include "comparealgorithm.h"
+#include <QDebug>
+#include <cmath>
+#include <QFile>
+#include <QTextStream>
+
+using namespace::std;
+
+CompareAlgorithm::CompareAlgorithm(QObject *parent) : QObject(parent)
+{
+    
+}
+
+CompareAlgorithm::CompareAlgorithm(const QList<QVector<float> >  &sampleList, const QList<QVector<float> > &effectiveList):
+     multipleRate(0)
+{
+    sampleBefore1zhou = sampleList.at(0);
+    sampleAfter1zhou = sampleList.at(1);
+    
+    sampleBefore1zhou2 = sampleList.at(2);
+    sampleAfter1zhou2 = sampleList.at(3);
+
+    effectBefore1zhou = effectiveList.at(0);
+    effectAfter1zhou = effectiveList.at(1);
+
+    effectBefore1zhou2 = effectiveList.at(2);
+    effectAfter1zhou2 = effectiveList.at(3);
+
+    effectTotal1zhou2 = effectBefore1zhou2;
+    effectTotal1zhou2.append(effectAfter1zhou2);
+}
+
+CompareAlgorithm::~CompareAlgorithm()
+{
+}
+
+int CompareAlgorithm::calMultipleRate(int m, int n)
+{
+    if(n > m){
+        int temp;
+        temp = n;
+        n = m;
+        m = temp;
+    }
+
+    int k = 0;
+    for(int i=m; i>0; i++){
+        if(i%m == 0 && i%n == 0){
+            k = i;
+            break;
+        }
+    }
+    return k;
+}
+
+QList<float> CompareAlgorithm::calVectorPeak(QVector<float> var)
+{
+    QList<float> peakList;
+    for(int i=2; i<var.size()-3; i++){
+        if(var.at(i-2) >= var.at(i-1) && var.at(i-1) >= var.at(i) && var.at(i) <= var.at(i+1) && var.at(i + 1) <= var.at(i+2))
+        {
+            peakList.append(var.at(i));
+        }
+    }
+    return peakList;
+}
+
+void CompareAlgorithm::calEffectInsertZero()
+{
+    for(int i= t_wavePoints1; i< effectBefore1zhou.size(); i++)
+    {
+        effectZeroBefore1.append(effectBefore1zhou[i]);
+        for(int i = 0; i<multipleRate/t_wavePoints1-1; i++){
+            effectZeroBefore1.append(0.0);
+        }
+    }
+
+    for(int i=0; i< effectAfter1zhou.size() - t_wavePoints1; i++){
+        effectZeroAfter1.append(effectAfter1zhou[i]);
+        for(int i=0; i<multipleRate/t_wavePoints1-1; i++){
+            effectZeroAfter1.append(0.0);
+        }
+    }
+}
+
+void CompareAlgorithm::calEffectInsert2Zero(int varAlign)
+{
+    float deltaFactor = varAlign/(multipleRate/t_wavePoints2);
+    int deltaFactor_int = static_cast<int>(deltaFactor);
+    for(int i= t_wavePoints2 + deltaFactor_int; i< effectBefore1zhou2.size() + deltaFactor_int; i++)
+    {
+        effectZeroBefore2.append(effectTotal1zhou2[i]);
+        for(int i = 0; i<multipleRate/t_wavePoints2-1; i++){
+            effectZeroBefore2.append(0.0);
+        }
+    }
+
+    for(int i = effectBefore1zhou2.size() + deltaFactor_int; i<effectTotal1zhou2.size() - t_wavePoints2 + deltaFactor_int; i++)
+    {
+        effectZeroAfter2.append(effectTotal1zhou2[i]);
+        for(int i = 0; i<multipleRate/t_wavePoints2-1; i++){
+             effectZeroAfter2.append(0.0);
+        }
+    }
+}
+
+QList<QVector<float>> CompareAlgorithm::getChopBeforeZhou() const
+{
+    QList<QVector<float>> chopBeforeZhouList;
+    chopBeforeZhouList.append(sampleBefore1zhou);
+    chopBeforeZhouList.append(sampleBefore1zhou2);
+    return chopBeforeZhouList;
+}
+
+QList<QVector<float>> CompareAlgorithm::getChopAfterZhou() const
+{
+    QList<QVector<float>> chopAfterZhouList;
+    chopAfterZhouList.append(sampleAfter1zhou);
+    chopAfterZhouList.append(sampleAfter1zhou2);
+    return chopAfterZhouList;
+}
+
+QList<QVector<float>> CompareAlgorithm::getInsertCompareVector() const
+{
+    //先插入突变点之前的采样值
+    QVector<float> insertCompareVector1 = insertCompareBefore1;
+    QVector<float> insertCompareVector2 = insertCompareBefore2;
+
+    //再插入突变点之后的采样值
+    insertCompareVector1.append(insertCompareAfter1);
+    insertCompareVector2.append(insertCompareAfter2);
+
+    QList<QVector<float>> insertValueList;
+    insertValueList.append(insertCompareVector1);
+    insertValueList.append(insertCompareVector2);
+    return insertValueList;
+}
+
+int CompareAlgorithm::calAlignPosition()
+{
+    int ssStart1 = t_surgeTime1.section(',', 1, 1).section(':', 2, 2).section('.', 0, 0).toInt();
+    int mesStart1 = t_surgeTime1.section(',', 1, 1).section(':', 2, 2).section('.', 1, 1).toInt();
+
+    int ssStart2 = t_surgeTime2.section(',', 1, 1).section(':', 2, 2).section('.', 0, 0).toInt();
+    int mesStart2 = t_surgeTime2.section(',', 1, 1).section(':', 2, 2).section('.', 1, 1).toInt();
+
+    int varAlign = 0;
+    multipleRate = calMultipleRate(t_wavePoints1, t_wavePoints2);
+    int ssRet = ssStart1 - ssStart2;
+    int mesRet = mesStart1 - mesStart2;
+
+    if(ssRet || mesRet){
+        //只用突变前一个周波， 突变后一个周波
+        QVector<float> chopBefore1zhou_half;
+        QVector<float> chopBefore1zhou2_half;
+
+        QVector<float> chopAfter1zhou_half;
+        QVector<float> chopAfter1zhou2_half;
+
+//************往前算***********
+//        for(int i=2*t_wavePoints1 - 1; i<sampleBefore1zhou.size(); i++){
+//            chopBefore1zhou_half.append(sampleBefore1zhou.at(i));
+//        }
+
+//        for(int i=2*t_wavePoints2 - 1; i<sampleBefore1zhou2.size(); i++){
+//            chopBefore1zhou2_half.append(sampleBefore1zhou2.at(i));
+//        }
+
+//************往后算***********
+        for(int i=t_wavePoints1 - 1; i<sampleBefore1zhou.size(); i++){
+            chopBefore1zhou_half.append(sampleBefore1zhou.at(i));
+        }
+
+        for(int i=t_wavePoints2 - 1; i<sampleBefore1zhou2.size(); i++){
+            chopBefore1zhou2_half.append(sampleBefore1zhou2.at(i));
+        }
+
+        for(int i=0; i<t_wavePoints1; i++){
+            chopAfter1zhou_half.append(sampleAfter1zhou.at(i));
+        }
+
+        for(int i=0; i<t_wavePoints2; i++){
+            chopAfter1zhou2_half.append(sampleAfter1zhou2.at(i));
+        }
+
+        //A段是否启动
+        bool zeroAFloat = false;
+        bool zeroAFloat2 = false;
+
+        //B段是否启动
+        bool zeroBFloat = false;
+        bool zeroBFloat2 = false;
+
+        double sumAFloat = 0.0;
+        double sumAFloat2 = 0.0;
+        double sumBFloat = 0.0;
+        double sumBFloat2 = 0.0;
+
+        double aveAFloat = 0.0;
+        double aveAFloat2 = 0.0;
+        double aveBFloat = 0.0;
+        double aveBFloat2 = 0.0;
+
+        //A段丢失突变点附近十个点;
+        for(int i=0; i<sampleBefore1zhou.size()-10; i++){
+            sumAFloat += static_cast<double>(fabs(sampleBefore1zhou.at(i)));
+        }
+        aveAFloat = sumAFloat/(sampleBefore1zhou.size()-10);
+        if(fabs(aveAFloat) > 0.2)
+        {
+            zeroAFloat = true;
+        }else
+        {
+            zeroAFloat = false;
+        }
+
+        for(int i=0; i<sampleBefore1zhou2.size()-10; i++){
+            sumAFloat2 += static_cast<double>(fabs(sampleBefore1zhou2.at(i)));
+        }
+        aveAFloat2 = sumAFloat2/(sampleBefore1zhou2.size()-10);
+        if(fabs(aveAFloat2) > 0.2)
+        {
+            zeroAFloat2 = true;
+        }else
+        {
+            zeroAFloat2 = false;
+        }
+
+        foreach(float var, sampleAfter1zhou){
+            sumBFloat += static_cast<double>(fabs(var));
+        }
+        aveBFloat = sumBFloat/sampleAfter1zhou.size();
+        if(fabs(aveBFloat) > 0.2)
+        {
+            zeroBFloat = true;
+        }else
+        {
+            zeroBFloat = false;
+        }
+
+        foreach(float var, sampleAfter1zhou2){
+            sumBFloat2 += static_cast<double>(fabs(var));
+        }
+        aveBFloat2 = sumBFloat2/sampleAfter1zhou2.size();
+        if(fabs(aveBFloat2) > 0.2)
+        {
+            zeroBFloat2 = true;
+        }else
+        {
+            zeroBFloat2 = false;
+        }
+
+        if(zeroAFloat && zeroAFloat2){
+            //被对齐序列
+            QList<float> beforePeakList = this->calVectorPeak(chopBefore1zhou_half);
+            QList<float> before2PeakList = this->calVectorPeak(chopBefore1zhou2_half);
+
+            auto beforePeakMin = std::min_element(std::begin(beforePeakList), std::end(beforePeakList));
+            auto before2PeakMin = std::min_element(std::begin(before2PeakList), std::end(before2PeakList));
+
+            int beforeAlign = 0;
+            int beforeSameSeq = 0;
+            int beforeTrue = 0;
+
+            //一个周波
+            for(int i=0; i<chopBefore1zhou_half.size(); i++){
+                if(fabs(static_cast<double>(chopBefore1zhou_half.at(i) - *beforePeakMin)) < 0.0000001)
+                {
+                    beforeAlign = i;
+                    break;
+                }
+            }
+
+            for(int j = 1; j<chopBefore1zhou_half.size() - beforeAlign; j++){
+                if(fabs(static_cast<double>(chopBefore1zhou_half.at(beforeAlign + j) - *beforePeakMin)) < 0.0000001)
+                {
+                    beforeSameSeq = j;
+                    break;
+                }
+            }
+            beforeTrue = beforeAlign +  beforeSameSeq/2;
+
+            int before2Align = 0;
+            int before2SameSeq = 0;
+            int before2True = 0;
+            //一个周波
+            for(int i=0; i<chopBefore1zhou2_half.size(); i++){
+                if(fabs(static_cast<double>(chopBefore1zhou2_half.at(i) - *before2PeakMin)) < 0.0000001)
+                {
+                    before2Align = i;
+                    break;
+                }
+            }
+
+            for(int j = 1; j<chopBefore1zhou2_half.size() - before2Align; j++){
+                if(fabs(static_cast<double>(chopBefore1zhou2_half.at(before2Align + j) - *before2PeakMin)) < 0.0000001)
+                {
+                    before2SameSeq = j;
+                    break;
+                }
+            }
+            before2True = before2Align + before2SameSeq/2;
+
+            varAlign = beforeTrue*(multipleRate/t_wavePoints1) - before2True*(multipleRate/t_wavePoints2);
+            return varAlign;
+        }else if(!zeroAFloat && !zeroAFloat2
+                 && zeroBFloat && zeroBFloat2)
+        {
+            //被对齐序列
+            QList<float> afterPeakList = this->calVectorPeak(chopAfter1zhou_half);
+            QList<float> after2PeakList = this->calVectorPeak(chopAfter1zhou2_half);
+
+            auto afterPeakMin = std::min_element(std::begin(afterPeakList), std::end(afterPeakList));
+            auto after2PeakMin = std::min_element(std::begin(after2PeakList), std::end(after2PeakList));
+
+            int afterAlign = 0;
+            int afterSameSeq = 0;
+            int afterTrue = 0;
+
+            //一个周波
+            for(int i=0; i<chopAfter1zhou_half.size(); i++){
+                if(fabs(static_cast<double>(chopAfter1zhou_half.at(i) - *afterPeakMin)) < 0.0000001)
+                {
+                    afterAlign = i;
+                    break;
+                }
+            }
+
+            for(int j=1; j<chopAfter1zhou_half.size() - afterAlign; j++){
+                if(fabs(static_cast<double>(chopAfter1zhou_half.at(afterAlign + j) - *afterPeakMin)) < 0.0000001)
+                {
+                    afterSameSeq = j;
+                    break;
+                }
+            }
+            afterTrue = afterAlign +  afterSameSeq/2;
+
+            int after2Align = 0;
+            int after2SameSeq = 0;
+            int after2True = 0;
+            //一个周波
+            for(int i=0; i<chopAfter1zhou2_half.size(); i++){
+                if(fabs(static_cast<double>(chopAfter1zhou2_half.at(i) - *after2PeakMin)) < 0.0000001)
+                {
+                    after2Align = i;
+                    break;
+                }
+            }
+
+            for(int j = 1; j<chopAfter1zhou2_half.size() - after2Align; j++){
+                if(fabs(static_cast<double>(chopAfter1zhou2_half.at(after2Align + j) - *after2PeakMin)) < 0.0000001)
+                {
+                    after2SameSeq = j;
+                    break;
+                }
+            }
+            after2True = after2Align + after2SameSeq/2;
+
+            varAlign = afterTrue*(multipleRate/t_wavePoints1) - after2True*(multipleRate/t_wavePoints2);
+            return varAlign;
+        }else if(!zeroAFloat && !zeroAFloat2 && !zeroBFloat && !zeroBFloat2){
+            qDebug() << "该通道无采样数据";
+        }else{
+            qDebug() << "通道数据异常";
+            exit(0);
+        }
+    }
+
+    //如果突变点时刻一致
+    else if(!ssRet && !mesRet){
+        varAlign = 0;
+        return varAlign;
+    }
+    return varAlign;
+}
+
+void CompareAlgorithm::calBeforeCompareData(int& varAlign, QString& itemType)
+{
+    for(int i=t_wavePoints1; i<effectBefore1zhou.size(); i++){
+        insertCompareBefore1.append(effectBefore1zhou.at(i));
+    }
+
+    int compareValue = multipleRate/t_wavePoints1;
+    int compareValue2 = multipleRate/t_wavePoints2;
+
+    int deltaFactor = varAlign/(multipleRate/t_wavePoints2);
+    //保护和保护之间比较  需判断点的个数
+    //挑点系数
+    int valueFactor = 0;
+    if(compareValue > compareValue2){
+        valueFactor = compareValue/compareValue2;
+    }else{
+        valueFactor = compareValue2/compareValue;
+    }
+
+    int totalComparePoints = effectZeroBefore1.size();
+
+    int lastIndex =0;
+    for(int k=effectZeroBefore2.size()-1; k>0; k--){
+        if(static_cast<double>(effectZeroBefore2.at(k)) > 0.00001){
+            lastIndex = k;
+            break;
+        }
+    }
+
+    for(int i=0; i<totalComparePoints / compareValue; i++){
+        t_pointSeqList1.append(t_startPos1 + i);
+        if(i == 0){
+            double comparision = static_cast<double>(effectZeroBefore1.at(0) - effectZeroBefore2.at(0));
+            double comparisionRel = static_cast<double>((effectZeroBefore1.at(0) - effectZeroBefore2.at(0))/effectZeroBefore2.at(0));
+
+            beforeCompareData.append(comparision);
+            t_pointSeqList2.append(t_startPos2 + deltaFactor + i);
+            insertCompareBefore2.append(effectZeroBefore2.at(0));
+            relativeError.append(comparisionRel);
+
+            if(fabs(static_cast<double>(comparisionRel)) < 0.050)
+            {
+               pointConclusion.append(normal);
+            }else if(fabs(static_cast<double>(comparisionRel)) >=0.050 && fabs(static_cast<double>(comparisionRel)) < 0.100){
+               pointConclusion.append(innormal);
+            }else if(fabs(static_cast<double>(comparisionRel)) >= 0.100){
+               pointConclusion.append(critical);
+            }
+        }
+        else
+        {
+            double comparision1 = 0.0;
+            double comparision2 = 0.0;
+            double comparisionRel1 = 0.0;
+            double comparisionRel2 = 0.0;
+
+            //计算序列号
+            int jValue = 0;
+            //是否调用lastINdex的值
+            bool isLastIndex = false;
+            for(int j=0; j<valueFactor; j++){
+                if(static_cast<double>(effectZeroBefore2.at(compareValue*i - j)) > 0.01
+                    &&
+                   effectZeroBefore2.size() > (compareValue*i + j)
+                    &&
+                   static_cast<double>(effectZeroBefore2.at(compareValue*i + j)) > 0.01)
+                {
+                    if(!QString::compare(itemType, "C")){
+                       //极小值处理
+                       if(static_cast<double>(effectZeroBefore1.at(compareValue*i)) < 0.01
+                               &&
+                          static_cast<double>(effectZeroBefore2.at(compareValue*i - j)) < 0.01)
+                       {
+                          comparision1 = 0.0;
+                       }else{
+                          comparision1 = static_cast<double>(effectZeroBefore1.at(compareValue*i) - effectZeroBefore2.at(compareValue*i - j));
+                       }
+
+                       if(static_cast<double>(effectZeroBefore1.at(compareValue*i)) < 0.01
+                              &&
+                          static_cast<double>(effectZeroBefore2.at(compareValue*i + j)) < 0.01)
+                       {
+                           comparision2 = 0.0;
+                       }else{
+                           comparision2 = static_cast<double>(effectZeroBefore1.at(compareValue*i) - effectZeroBefore2.at(compareValue*i + j));
+                       }
+                    }else if(!QString::compare(itemType, "V"))
+                    {
+                       if(static_cast<double>(effectZeroBefore1.at(compareValue*i)) < 1.0
+                               &&
+                          static_cast<double>(effectZeroBefore2.at(compareValue*i - j)) < 1.0)
+                       {
+                          comparision1 = 0.0;
+                       }else{
+                          comparision1 = static_cast<double>(effectZeroBefore1.at(compareValue*i) - effectZeroBefore2.at(compareValue*i - j));
+                       }
+
+                       if(static_cast<double>(effectZeroBefore1.at(compareValue*i)) < 1.0
+                              &&
+                          static_cast<double>(effectZeroBefore2.at(compareValue*i + j)) < 1.0)
+                       {
+                           comparision2 = 0.0;
+                       }else{
+                           comparision2 = static_cast<double>(effectZeroBefore1.at(compareValue*i) - effectZeroBefore2.at(compareValue*i + j));
+                       }
+                    }
+                       comparisionRel1 = comparision1/static_cast<double>(effectZeroBefore2.at(compareValue*i - j));
+                       comparisionRel2 = comparision2/static_cast<double>(effectZeroBefore2.at(compareValue*i + j));
+
+                       jValue = j;
+                       break;
+                }else if(fabs(static_cast<double>(effectZeroBefore2.at(compareValue*i - j))) > 0.01
+                         &&
+                         effectZeroBefore2.size() < (compareValue*i + j)
+                         )
+                {
+                    if(!QString::compare(itemType, "C")){
+                       if(static_cast<double>(effectZeroBefore1.at(compareValue*i)) < 0.01
+                               &&
+                          static_cast<double>(effectZeroBefore2.at(compareValue*i - j)) < 0.01)
+                       {
+                           comparision1 = 0.0;
+                       }else{
+                           comparision1 = static_cast<double>(effectZeroBefore1.at(compareValue*i) - effectZeroBefore2.at(compareValue*i - j));
+                       }
+
+                       if(static_cast<double>(effectZeroBefore1.at(compareValue*i)) < 0.01
+                              &&
+                          static_cast<double>(effectZeroBefore2.at(lastIndex)) < 0.01)
+                       {
+                           comparision2 = 0.0;
+                       }else{
+                           comparision2 = static_cast<double>(effectZeroBefore1.at(compareValue*i) - effectZeroBefore2.at(lastIndex));
+                       }
+                    }else if(!QString::compare(itemType, "V")){
+                       if(static_cast<double>(effectZeroBefore1.at(compareValue*i)) < 1.0
+                               &&
+                          static_cast<double>(effectZeroBefore2.at(compareValue*i - j)) < 1.0)
+                       {
+                           comparision1 = 0.0;
+                       }else{
+                           comparision1 = static_cast<double>(effectZeroBefore1.at(compareValue*i) - effectZeroBefore2.at(compareValue*i - j));
+                       }
+
+                       if(static_cast<double>(effectZeroBefore1.at(compareValue*i)) < 1.0
+                              &&
+                          static_cast<double>(effectZeroBefore2.at(lastIndex)) < 1.0)
+                       {
+                           comparision2 = 0.0;
+                       }else{
+                           comparision2 = static_cast<double>(effectZeroBefore1.at(compareValue*i) - effectZeroBefore2.at(lastIndex));
+                       }
+                    }
+                       comparisionRel1 = comparision1/static_cast<double>(effectZeroBefore2.at(compareValue*i - j));
+                       comparisionRel2 = comparision2/static_cast<double>(effectZeroBefore2.at(lastIndex));
+
+                       isLastIndex = true;
+                       jValue = j;
+                       break;
+                }
+            }
+
+            if(fabs(static_cast<double>(comparision1)) >= fabs(static_cast<double>(comparision2))){
+                beforeCompareData.append(comparision2);
+                if(!isLastIndex){
+                    //计算序列号
+                    t_pointSeqList2.append(t_startPos2 + deltaFactor + (compareValue*i - jValue)/(multipleRate/t_wavePoints2));
+                }else{
+                    t_pointSeqList2.append(t_startPos2 + deltaFactor + effectBefore1zhou2.size());
+                }
+                insertCompareBefore2.append(effectZeroBefore1.at(compareValue*i) - static_cast<float>(comparision2));
+                relativeError.append(comparisionRel2);
+
+                if(fabs(static_cast<double>(comparisionRel2)) < 0.050)
+                {
+                    pointConclusion.append(normal);
+                }else if(fabs(comparisionRel2) >=0.050 && fabs(comparisionRel2) < 0.100){
+                    pointConclusion.append(innormal);
+                }else if(fabs(comparisionRel2) >= 0.100){
+                    pointConclusion.append(critical);
+                }
+            }else if(fabs(comparision1) < fabs(comparision2)){
+                beforeCompareData.append(comparision1);
+                t_pointSeqList2.append(t_startPos2 + deltaFactor + (compareValue*i + jValue)/(multipleRate/t_wavePoints2));
+                insertCompareBefore2.append(effectZeroBefore1.at(compareValue*i) - static_cast<float>(comparision1));
+                relativeError.append(comparisionRel1);
+
+                if(fabs(comparisionRel1) < 0.050)
+                {
+                    pointConclusion.append(normal);
+                }else if(fabs(comparisionRel1) >=0.050 && fabs(comparisionRel1) < 0.100){
+                    pointConclusion.append(innormal);
+                }else if(fabs(comparisionRel1) >= 0.100){
+                    pointConclusion.append(critical);
+                }
+            }
+        }
+    }
+}
+
+void CompareAlgorithm::calAfterCompareData(QString& itemType)
+{
+    for(int i=0; i<effectAfter1zhou.size() - t_wavePoints1; i++){
+        insertCompareAfter1.append(effectAfter1zhou.at(i));
+    }
+
+    int compareValue = multipleRate/t_wavePoints1;
+    int compareValue2 = multipleRate/t_wavePoints2;
+    int valueFactor = 0;
+    if(compareValue > compareValue2){
+        valueFactor = compareValue/compareValue2;
+    }else{
+        valueFactor = compareValue2/compareValue;
+    }
+
+    int afterStartPos = 0;
+    int afterStartPos2 = 0;
+
+    int totalComparePoints = effectZeroAfter1.size();
+
+    if(!t_pointSeqList1.isEmpty())
+    {
+        afterStartPos = t_pointSeqList1.last() + 1;
+    }
+
+    if(!t_pointSeqList2.isEmpty())
+    {
+        afterStartPos2 = t_pointSeqList2.last() + compareValue;
+    }
+
+    int lastIndex=0;
+    for(int k=effectZeroAfter2.size() -1; k>0; k--){
+        if(static_cast<double>(effectZeroAfter2.at(k)) > 0.00001){
+            lastIndex = k;
+            break;
+        }
+    }
+
+    for(int i=0; i<totalComparePoints/compareValue; i++)
+    {
+        t_pointSeqList1.append(afterStartPos + i);
+
+        if(i == 0){
+            double comparision = static_cast<double>(effectZeroAfter1.at(0) - effectZeroAfter2.at(0));
+            double comparisionRel = static_cast<double>((effectZeroAfter1.at(0) - effectZeroAfter2.at(0))/effectZeroAfter1.at(0));
+            afterCompareData.append(comparision);
+            t_pointSeqList2.append(afterStartPos2 + i);
+            insertCompareAfter2.append(effectZeroAfter2.at(0));
+            relativeError.append(comparisionRel);
+
+            if(fabs(comparisionRel) < 0.050)
+            {
+               pointConclusion.append(normal);
+            }else if(fabs(comparisionRel) >=0.050 && fabs(comparisionRel) < 0.100){
+               pointConclusion.append(innormal);
+            }else if(fabs(comparisionRel) >= 0.100){
+               pointConclusion.append(critical);
+            }
+        }
+        else
+        {
+            double comparision1 = 0.0;
+            double comparision2 = 0.0;
+            double comparisionRel1 = 0.0;
+            double comparisionRel2 = 0.0;
+
+            //计算序列号
+            int jValue = 0;
+            bool isLastIndex = false;
+            for(int j =0 ; j< valueFactor; j++){
+                if(static_cast<double>(effectZeroAfter2.at(compareValue*i - j)) > 0.01
+                     &&
+                   effectZeroAfter2.size() > (compareValue*i + j)
+                     &&
+                   static_cast<double>(effectZeroAfter2.at(compareValue*i + j)) > 0.01){
+                    if(!QString::compare(itemType, "C")){
+                        if(static_cast<double>(effectZeroAfter1.at(compareValue*i)) < 0.01
+                             &&
+                            static_cast<double>(effectZeroAfter2.at(compareValue*i - j)) < 0.01
+                        )
+                        {
+                            comparision1 = 0.0;
+                        }else
+                        {
+                            comparision1 = static_cast<double>(effectZeroAfter1.at(compareValue*i) - effectZeroAfter2.at(compareValue*i - j));
+                        }
+
+                        if(static_cast<double>(effectZeroAfter1.at(compareValue*i)) < 0.01
+                             &&
+                            static_cast<double>(effectZeroAfter2.at(compareValue*i + j)) <0.01)
+                        {
+                            comparision2 = 0.0;
+                        }else{
+                            comparision2 = static_cast<double>(effectZeroAfter1.at(compareValue*i) - effectZeroAfter2.at(compareValue*i + j));
+                        }
+                    }else if(!QString::compare(itemType, "V")){
+                        if(effectZeroAfter1.at(compareValue*i) < 1
+                             &&
+                            effectZeroAfter2.at(compareValue*i - j) < 1                    	)
+                        {
+                            comparision1 = 0.0;
+                        }else
+                        {
+                            comparision1 = static_cast<double>(effectZeroAfter1.at(compareValue*i) - effectZeroAfter2.at(compareValue*i - j));
+                        }
+
+                        if(effectZeroAfter1.at(compareValue*i) < 1
+                             &&
+                            effectZeroAfter2.at(compareValue*i + j) <1)
+                        {
+                            comparision2 = 0.0;
+                        }else{
+                            comparision2 = static_cast<double>(effectZeroAfter1.at(compareValue*i) - effectZeroAfter2.at(compareValue*i + j));
+                        }
+                    }
+                       comparisionRel1 = comparision1/static_cast<double>(effectZeroAfter2.at(compareValue*i - j));
+                       comparisionRel2 = comparision2/static_cast<double>(effectZeroAfter2.at(compareValue*i + j));
+
+                       jValue = j;
+                       break;
+                }else if(static_cast<double>(effectZeroAfter2.at(compareValue*i - j)) > 0.01
+                         &&
+                         effectZeroAfter2.size() < (compareValue*i + j))
+                {
+                    if(!QString::compare(itemType, "C")){
+                        if(static_cast<double>(effectZeroAfter1.at(compareValue*i)) < 0.01
+                            &&
+                            static_cast<double>(effectZeroAfter2.at(compareValue*i - j)) < 0.01)
+                        {
+                            comparision1 = 0.0;
+                        }else{
+                            comparision1 = static_cast<double>(effectZeroAfter1.at(compareValue*i) - effectZeroAfter2.at(compareValue*i - j));
+                        }
+
+                        if(static_cast<double>(effectZeroAfter1.at(compareValue*i)) < 0.01
+                            &&
+                        static_cast<double>(effectZeroAfter2.at(lastIndex)) < 0.01)
+                        {
+                            comparision2 = 0.0;
+                        }else{
+                            comparision2 = static_cast<double>(effectZeroAfter1.at(compareValue*i) - effectZeroAfter2.at(lastIndex));
+                        }
+                    }else if(!QString::compare(itemType, "V"))
+                    {
+                        if(effectZeroAfter1.at(compareValue*i) < 1
+                            &&
+                            effectZeroAfter2.at(compareValue*i - j) < 1)
+                        {
+                            comparision1 = 0.0;
+                        }else{
+                            comparision1 = static_cast<double>(effectZeroAfter1.at(compareValue*i) - effectZeroAfter2.at(compareValue*i - j));
+                        }
+
+                        if(effectZeroAfter1.at(compareValue*i) < 1
+                            &&
+                        effectZeroAfter2.at(lastIndex) < 1)
+                        {
+                            comparision2 = 0.0;
+                        }else{
+                            comparision2 = static_cast<double>(effectZeroAfter1.at(compareValue*i) - effectZeroAfter2.at(lastIndex));
+                        }
+                    }
+
+                    comparisionRel1 = comparision1/static_cast<double>(effectZeroAfter2.at(compareValue*i - j));
+                    comparisionRel2 = comparision2/static_cast<double>(effectZeroAfter2.at(lastIndex));
+
+                    isLastIndex = true;
+                    jValue = j;
+                    break;
+                }
+            }
+
+            if(fabs(comparision1) >= fabs(comparision2)){
+                afterCompareData.append(comparision2);
+                if(!isLastIndex){
+                    //计算序列号
+                    t_pointSeqList2.append(afterStartPos2 + (compareValue*i - jValue)/(multipleRate/t_wavePoints2));
+                }else{
+                    t_pointSeqList2.append(afterStartPos2 + effectAfter1zhou2.size());
+                }
+                insertCompareAfter2.append(effectZeroAfter1.at(compareValue*i) - static_cast<float>(comparision2));
+                relativeError.append(comparisionRel2);
+
+                if(fabs(comparisionRel2) < 0.050)
+                {
+                    pointConclusion.append(normal);
+                }else if(fabs(comparisionRel2) >=0.050 && fabs(comparisionRel2) < 0.100){
+                    pointConclusion.append(innormal);
+                }else if(fabs(comparisionRel2) >= 0.100){
+                    pointConclusion.append(critical);
+                }
+            }else if(fabs(comparision1) < fabs(comparision2))
+            {
+                afterCompareData.append(comparision1);
+                t_pointSeqList2.append(afterStartPos2 + (compareValue*i + jValue)/(multipleRate/t_wavePoints2));
+                insertCompareAfter2.append(effectZeroAfter1.at(compareValue*i) - static_cast<float>(comparision1));
+                relativeError.append(comparisionRel1);
+
+                if(fabs(comparisionRel1) < 0.050)
+                {
+                    pointConclusion.append(normal);
+                }else if(fabs(comparisionRel1) >=0.050 && fabs(comparisionRel1) < 0.100){
+                    pointConclusion.append(innormal);
+                }else if(fabs(comparisionRel1) >= 0.100){
+                    pointConclusion.append(critical);
+                }
+            }
+        }
+    }
+}
+
+QList<QVector<double>> CompareAlgorithm::getCompareDataList() const
+{
+    QList<QVector<double>> compareDataList;
+    compareDataList.append(beforeCompareData);
+    compareDataList.append(afterCompareData);
+
+    return compareDataList;
+}
+
+QList<QList<int>> CompareAlgorithm::getPointSeqList() const
+{
+    QList<QList<int>> pointSeqList;
+    pointSeqList.append(t_pointSeqList1);
+    pointSeqList.append(t_pointSeqList2);
+    return pointSeqList;
+}
+
+QList<int> CompareAlgorithm::getFirstPos()
+{
+    QList<int> firstPosList;
+    firstPosList.append(t_pointSeqList1.at(0));
+    firstPosList.append(t_pointSeqList2.at(0));
+
+    return firstPosList;
+}
+
+double CompareAlgorithm::getCompareConclusion()
+{
+     QVector<double> chopResultVector;
+     //每隔半个周波取一个有效值
+     for(int i=0; i<relativeError.size(); i+=relativeError.size()/9)
+     {
+          chopResultVector.append(static_cast<double>(relativeError.at(i)));
+     }
+
+     for(int i=0; i<chopResultVector.size() - 2; i++){
+        if((fabs(chopResultVector.at(i))) > 0.10
+           &&
+           fabs(chopResultVector.at(i + 1)) > 0.10
+           &&
+           fabs(chopResultVector.at(i + 2)) > 0.10)
+        {
+           t_compareConclusion = (chopResultVector.at(i) + chopResultVector.at(i+1) + chopResultVector.at(i+2))/3;
+           t_result = critical;
+           break;
+        }
+//        else if(fabs(chopResultVector.at(i)) > 0.05
+//                &&  fabs(chopResultVector.at(i + 1)) > 0.05
+//                &&  fabs(chopResultVector.at(i + 2)) > 0.05
+//                ){
+        else if(fabs(chopResultVector.at(i)) > 0.06
+                &&
+                fabs(chopResultVector.at(i + 1)) > 0.06
+                &&
+                fabs(chopResultVector.at(i + 2)) > 0.06){
+            t_compareConclusion = (chopResultVector.at(i) + chopResultVector.at(i+1) + chopResultVector.at(i+2))/3;
+            t_result = innormal;
+            break;
+        }else
+        {
+            t_compareConclusion = 0.0;
+            t_result = normal;
+        }
+     }
+     return t_compareConclusion;
+}
+
+int CompareAlgorithm::getCompareResult()
+{
+    return t_result;
+}
+
+void CompareAlgorithm::setSurgeTime(const QString& time1, const QString& time2)
+{
+    t_surgeTime1 = time1;
+    t_surgeTime2 = time2;
+}
+
+void CompareAlgorithm::setWavePoint(const int& num1, const int& num2)
+{
+    t_wavePoints1 = num1;
+    t_wavePoints2 = num2;
+}
+
+void CompareAlgorithm::setStartPoint(const int& num1, const int& num2)
+{
+    t_startPos1 = num1;
+    t_startPos2 = num2;
+}
+
+QVector<double> CompareAlgorithm::getRelativeError()
+{
+    return relativeError;
+}
+
+QVector<double> CompareAlgorithm::getAbsoluteError()
+{
+    absoluteError = beforeCompareData;
+    absoluteError.append(afterCompareData);
+    return absoluteError;
+}
+
+QList<int> CompareAlgorithm::getPointConclusion()
+{
+    return pointConclusion;
+}
+
+double CompareAlgorithm::calRelevence(const QVector<float>& standVec, const QVector<float>& taskVec, int length)
+{
+    double sumStand = 0.0;
+    double sumTask = 0.0;
+    double aveStand = 0.0;
+    double aveTask = 0.0;
+
+    //求和
+    sumStand = std::accumulate(standVec.begin(), standVec.end(), 0.0);
+    sumTask = std::accumulate(taskVec.begin(), taskVec.end(), 0.0);
+
+    //求平均值
+    aveStand = sumStand/double(length);
+    aveTask = sumTask/double(length);
+
+    //计算相关系数
+    double R1 = 0.0;
+    double R2 = 0.0;
+    double R3 = 0.0;
+    for(int i = 0; i< length; i++)
+    {
+        R1 += (static_cast<double>(standVec.at(i)) - aveStand)*(static_cast<double>(taskVec.at(i)) - aveTask);
+        R2 += pow((static_cast<double>(standVec.at(i)) - aveStand), 2);
+        R3 += pow((static_cast<double>(taskVec.at(i)) - aveTask), 2);
+    }
+
+    return (R1/sqrt(R2*R3));
+}
+
+double CompareAlgorithm::getRelevence()
+{
+   //计算相关系数
+   QVector<float> standEffectVector = insertCompareBefore1;
+   standEffectVector.append(insertCompareAfter1);
+
+   QVector<float> taskEffectVector = insertCompareBefore2;
+   taskEffectVector.append(insertCompareAfter2);
+
+   int length = standEffectVector.size();
+   return calRelevence(standEffectVector, taskEffectVector, length);
+}
+
